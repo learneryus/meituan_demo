@@ -32,7 +32,7 @@ st.markdown("---")
 # 2. 读取数据
 # --------------------------
 # 请确保路径正确
-df = pd.read_excel(r"result_2.xlsx")
+df = pd.read_excel(r"result_2_1.xlsx")
 df = df.dropna()
 df['revenue'] = df['n_A_to_B_order'].astype(int).astype(str) + "p"
 
