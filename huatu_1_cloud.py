@@ -33,7 +33,7 @@ st.markdown("---")
 # 2. 本地读取数据
 # --------------------------
 # 🌟 请确保该路径与你本地实际路径一致 🌟
-file_path = r"result_1.xlsx" 
+file_path = r"result_1_1.xlsx" 
 
 df = pd.read_excel(file_path)
 df = df.dropna()
